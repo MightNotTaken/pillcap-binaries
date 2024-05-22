@@ -1,8 +1,8 @@
 DbVersion
-2049865005,0
+1339961732,0
 <end>
 BuildInfo
-The current data file was built by the Application Ver. 2.0.16.37, Thu May 18 16:53:24 2023
+The current data file was built by the Application Ver. 2.0.16.37, Thu Dec  7 14:24:46 2023
 <end>
 EnumVals
 345,1254621185,0,0,CCM_SIM,CacSimConvertPinStatus_1,P_INFO,ECOMM_TRACE("universalPinStatus.enabled: %d , universalPinStatus.used:%d ",ccmPinStatus->universalPinStatus.enabled,ccmPinStatus->universalPinStatus.used);
