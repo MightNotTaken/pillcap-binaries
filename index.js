@@ -20,7 +20,9 @@ fs.readdir(src, (err, files) => {
     files.forEach(file => {
         const srcPath = path.join(src, file);
         const destPath = path.join(dest, file);
-        
+        if (file == 'dbg') {
+            return;
+        }
         fs.rename(srcPath, destPath, (err) => {
             if (err) {
                 console.error(`Error moving file ${file}:`, err);
